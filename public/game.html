@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Switched at Mirth</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/spinkit.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.plugin.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
+		<script src="socket.io/socket.io.js"></script>
+		<script src="js/game/game.js"></script>
+	</head>
+<body>
+	<div align="center">
+		<div id="title"></div>
+		<div id="lobby">
+			<button id="btn_lobby_team1" class="btn btn-default">Team A</button>
+			<button id="btn_lobby_team2" class="btn btn-default">Team B</button>
+		</div>
+		<div id="idle">SWITCHED AT MIRTH</div>
+		<div id="first">Your team is up first. Get ready!</div>
+		<div id="waiting">Your team is up next. Get ready!</div>
+		<div id="not_captain"></div>
+		<div id="captain">
+			<p>You're the captain. Choose which two players' bodies to swap next!</p>
+			<div id="captain_body1">
+				<button id="btn_body1" class="btn btn-default"></button>
+				<label id="label_body1" for="btn_body1"></label>
+			</div>
+			<div id="captain_body2">
+				<button id="btn_body2" class="btn btn-default"></button>
+				<label id="label_body2" for="btn_body2"></label>
+			</div>
+			<div id="captain_body3">
+				<button id="btn_body3" class="btn btn-default"></button>
+				<label id="label_body3" for="btn_body3"></label>
+			</div>
+			<div id="captain_body4">
+				<button id="btn_body4" class="btn btn-default"></button>
+				<label id="label_body4" for="btn_body4"></label>
+			</div>
+			<div id="captain_body5">
+				<button id="btn_body5" class="btn btn-default"></button>
+				<label id="label_body5" for="btn_body5"></label>
+			</div>
+			<div id="captain_body6">
+				<button id="btn_body6" class="btn btn-default"></button>
+				<label id="label_body6" for="btn_body6"></label>
+			</div>
+			<button id="btn_swap_bodies" class="btn btn-default">Swap Bodies</button>
+		</div>
+		<div id="bench">You're on the bench this round.</div>
+		<div id="end">Thank you for playing!</div>
+	</div>
+</body>
+</html>
