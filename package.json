@@ -1,5 +1,5 @@
 {
-  "name": "switched-at-mirth",
+  "name": "switched-at-mirth-party-game",
   "version": "1.0.0",
   "description": "A local server-based party team game built using Node.js and Socket.IO.",
   "main": "app.js",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AJW8/Switched-At-Mirth.git"
+    "url": "git+https://github.com/AJW8/Switched-At-Mirth-Party-Game.git"
   },
   "author": "Aaron Win",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AJW8/Switched-At-Mirth/issues"
+    "url": "https://github.com/AJW8/Switched-At-Mirth-Party-Game/issues"
   },
-  "homepage": "https://github.com/AJW8/Switched-At-Mirth#readme"
+  "homepage": "https://github.com/AJW8/Switched-At-Mirth-Party-Game#readme"
 }
