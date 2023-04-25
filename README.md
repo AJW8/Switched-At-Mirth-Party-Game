@@ -46,6 +46,7 @@ node app.js
 - Once enough players have joined and the teams are 'balanced' (size difference of no more than 1 player), you may start the game whenever you are ready
 
 ### Joining a game
-- Go to http://localhost:3000 on your web browser
+- First make sure you are connected to the same wifi network as the host
+- Go to http://******:3000 on your web browser, replacing ****** with the host's IPv4 address
 - Under the 'Join Game' heading, enter your desired name and the matching room code then click 'Connect'
 - You will be taken to the game page, where you can choose a team (one is pre-selected for you) while waiting for the host to start the game
